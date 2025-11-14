@@ -1,0 +1,30 @@
+.grid_container{
+display: grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px
+}
+body{
+    background-color: rgb(98, 88, 88);
+}
+.grid_item{
+    border: 2px solid bisque;
+    padding: 20px;
+    background-color: blueviolet;
+}
+ol{
+    text-decoration: aqua;
+    text-align: center;
+    text-size-adjust:100px;
+    text-decoration-line:underline  ;
+    text-decoration-color: palevioletred;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+    /* overline line-through 
+    styles:wavy,double,dashed,solid,dotted
+    text-decoration-color it adds color to the decorated line*/
+    
+}
+a{
+    text-decoration-line: none;
+   
+}

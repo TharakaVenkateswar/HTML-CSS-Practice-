@@ -1,0 +1,17 @@
+ol{
+    list-style-type:none;
+    background-color: aqua;
+    
+}
+li{
+    display: inline-block;
+    padding:30px;
+    height: 5px;
+}
+a{
+    text-decoration-line: none;
+   color: black;
+}
+img{
+    border-radius:50%;
+}

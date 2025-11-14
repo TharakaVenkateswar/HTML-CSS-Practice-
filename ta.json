@@ -1,0 +1,93 @@
+db.movies.insertOne({
+_id:101,
+name:"RRR",
+year:2021,
+genre:["historical","action","emotional"],
+rating:9.5
+})
+db.movies.insertMany[({
+_id:102,
+name:"the conjuring",
+year:2012,
+genre:["thriller","horror","based on real events"]}
+,
+{
+
+    _id:103,
+    name:"the conjuring 2",
+    year:2014,
+    genre:["thriller","horror","based on real events"]}
+    ,
+    {
+
+        _id:104,
+        name:"the conjuring 3",
+        year:2023,
+        genre:["thriller","horror","based on real events"]}
+        
+)]
+
+db.teachers.insertMany([
+    {
+        _id:1,
+        name:"tharak",
+        subject:"mathematics",
+        phone:9182150328,
+        email:"tharakavenkateswarpulikallu@gmail.com"
+    },
+    {
+        _id:2,
+        name:"venkat",
+        subject:"physics",
+        phone:9182146542,
+        email:"venkateswarpulikallu@gmail.com"
+    },
+    {
+        _id:3,
+        name:"prasad",
+        subject:"softskills",
+        phone:9157543463,
+        email:"pulikallu@gmail.com"
+    }
+])
+db.students.insertMany([{
+    _id:4,
+    name:"kusu",
+    sub:["maths","stats","computers"],
+    marks:300
+},
+{
+    _id:4,
+    name:"sid",
+    sub:["maths","stats","computers"],
+    marks:600
+},
+{
+    _id:4,
+    name:"puli",
+    sub:["maths","stats","computers"],
+    marks:450
+},
+{
+    _id:4,
+    name:"pushpa",
+    sub:["maths","stats","computers"],
+    marks:500
+}
+])
+db.Tharaka.insertmany([
+    {
+        _id:1,
+        year:"1st year",
+        sem:"1st sem",
+        sub:["mfca","os","dbms","ds using c","coa"],
+        cgpa:9.4
+    },
+    {
+        _id:2,
+        year:"1st year",
+        sem:"2st sem",
+        sub:["cc","cn","java","ds with python","stm"],
+        cgpa:9.6
+    }
+])
